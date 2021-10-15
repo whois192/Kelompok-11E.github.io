@@ -1,1 +1,395 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
 
+h1.title {
+	margin-bottom: 20px;
+	color: #444444;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	
+	
+}
+
+h3::after {
+	content: "";
+	border-bottom: 5px solid #c86b85;
+	width: 52px;
+	display: block;
+	margin: 20px auto;
+	font-size: 50px;
+}
+
+.p {
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 20px;
+	color: #a9a9a9;
+}
+
+.banner_content p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	background-color: #37988e;
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo a{
+	font-family:"Brush Script MT";
+	font-size: 30px;
+	color: #fff;
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* banner_image */
+.banner_image{
+	background: url('asset/lombok.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-top: 100px;
+	font-size: 35px;
+	color: crimson;
+	font-family: Garamond, serif;
+	
+}
+.banner_content p {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	font-weight: bold;
+	margin-top: 50px;
+  }
+.banner_content h1 span{
+	color: #fb2274;
+}
+
+.btn1 {
+	box-sizing: border-box;
+	position: static;
+	margin-top: 100px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid #e74c3c;
+	border-radius: 0.6em;
+	color: #e74c3c;
+	cursor: pointer;
+	display: flex;
+	align-self: center;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 2em;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	outline: 0;
+}
+.fourth {
+	border-color: Crimson;
+	color: #fff;
+	background-image: linear-gradient(45deg, Crimson 50%, transparent 50%);
+	background-position: 100%;
+	background-size: 400%;
+	transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+	background-position: 0;
+}
+
+section {
+	padding: 50px 0px 50px 0px;
+}
+section h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Garamond, serif;
+}
+section h3::after {
+	content: "";
+	border-bottom: 5px solid #c86b85;
+	width: 52px;
+	display: block;
+	margin: 20px auto;
+}
+section.abuabu {
+	background-color: #f6f6f6;
+}
+.blog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.blog h4 {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.blog p {
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.blog .area {
+	width: 47%;
+	box-shadow: 0px -10px 30px #ccc;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.blog div.area div {
+	width: 50%;
+}
+  
+.blog .area .gambar {
+	border-radius: 5px 0px 0px 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+  
+.blog .area .text article {
+	padding: 40px;
+}
+
+.blog .area .text article h4 {
+	margin: 0px;
+}
+  
+.blog .area .text article a {
+	color: #333;
+	text-decoration: none;
+	transition: color 0.5s ease;
+}
+.blog .area .text article a:hover {
+	color: #dedede;
+}
+
+/* About */
+.about,
+.services,
+.contactus,
+.ourteam{
+	text-align: center;
+	padding: 5% 10%;
+	line-height: 40px;
+
+}
+
+.about h3 {
+	font-size: 30px;
+	font-family: Garamond, serif;
+}
+
+.about p {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+/* Services */
+.services{
+	background: white;
+}
+
+.diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services h3 {
+	font-size: 30px;
+	font-family: Garamond, serif;
+}
+
+.services p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.diff_services .diff_services_item {
+    width: 30%;
+}
+
+.diff_services .diff_services_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_services .diff_services_item h2 {
+    color: #fb2274;
+	font-size: 15px;
+	font-family: serif;
+}
+
+/* our team */
+.ourteam{
+	background: white;
+}
+
+.ourteam h3 {
+	font-size: 30px;
+	font-family: Garamond, serif;
+}
+
+.ourteam_wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+@media (max-width: 1000px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
+	.banner_content h1{
+		font-size: 35px;
+	}
+
+	.blog .area {
+		display: block;
+	}
+	.blog div.area div {
+		width: 100%;
+	}
+	.blog .area .gambar {
+		border-radius: 5px 5px 0px 0px;
+		height: 200px;
+			
+	}
+	
+}

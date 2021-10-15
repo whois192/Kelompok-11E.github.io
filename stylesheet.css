@@ -186,18 +186,6 @@ section.abuabu {
 	justify-content: space-around;
 	text-align: center;
 }
-
-.blog h4 {
-	font-size: 15px;
-	margin-bottom: 20px;
-}
-
-.blog p {
-	margin-top: 20px;
-	font-size: 14px;
-	line-height: 20px;
-}
-
 .blog .area {
 	width: 47%;
 	box-shadow: 0px -10px 30px #ccc;
@@ -252,11 +240,6 @@ section.abuabu {
 	font-family: Garamond, serif;
 }
 
-.about p {
-	font-size: 15px;
-	line-height: 30px;
-}
-
 /* Services */
 .services{
 	background: white;
@@ -273,11 +256,6 @@ section.abuabu {
 	font-family: Garamond, serif;
 }
 
-.services p {
-	font-size: 13px;
-	line-height: 20px;
-}
-
 .diff_services .diff_services_item {
     width: 30%;
 }
@@ -289,8 +267,8 @@ section.abuabu {
 
 .diff_services .diff_services_item h2 {
     color: #fb2274;
-	font-size: 15px;
-	font-family: serif;
+    margin-bottom: 15px;
+	font-size: 18px;
 }
 
 /* our team */
@@ -352,7 +330,7 @@ section.abuabu {
 	color: #fff;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 720px){
 
 	.navbar{
 		height: auto;
@@ -391,5 +369,5 @@ section.abuabu {
 		height: 200px;
 			
 	}
-	
+
 }

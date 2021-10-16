@@ -87,10 +87,6 @@ h3::after {
 	display: flex;
 }
 
-.navbar_items ul li{
-	margin: 0 10px;
-}
-
 
 .navbar_items ul li a{
   line-height: 65px;

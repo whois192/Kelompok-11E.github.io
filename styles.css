@@ -65,6 +65,18 @@ h3::after {
 	align-items: center;
 }
 
+.nav-ico {
+	display: none;
+}
+  
+.menu-icon {
+	color:white;
+	float:left;
+	display:none;
+	font-size: 25px;
+	padding: 21px 0;
+}
+
 .logo a{
 	font-family:"Brush Script MT";
 	font-size: 30px;
@@ -361,6 +373,16 @@ section.abuabu {
 
 	.logo{
 		margin-bottom: 25px;
+	}
+	
+	.nav-ico {
+		display: block;
+		margin-left: 150px;
+	}
+  
+	.menu-icon {
+		display: block;
+		float:left;
 	}
 
 	.navbar_items ul{
